@@ -3,8 +3,6 @@ Slovník
 
 Aplikácia je skratkou pre slovnik.korpus.sk. Vznikla z dôvodu potreby lepšej správy hľadaných výrazov. Mne celkom uľahčila písanie prác, teda svoj účel splnila. :) 
 
-Licensed under GPL v2 license.
-
 ====
 
 
@@ -21,4 +19,22 @@ Ovládanie
 Hlavné okno
 ===
 
-![](https//raw.github.com/jakubPetrik/Slovnik/master/images/hlavneOkno.png)
+![](https://raw.githubusercontent.com/jakubPetrik/Slovnik/master/images/hlavneOkno.png)
+
+História
+===
+![](https://raw.githubusercontent.com/jakubPetrik/Slovnik/master/images/historia.png)
+
+Nastavenia
+===
+
+![](https://raw.githubusercontent.com/jakubPetrik/Slovnik/master/images/nastavenia1.png)
+
+![](https://raw.githubusercontent.com/jakubPetrik/Slovnik/master/images/nastavenia2.png)
+
+License
+===
+===
+Licensed under GPL v2 license. See the LICENSE for more info.
+
+
