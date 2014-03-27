@@ -1,0 +1,44 @@
+//
+// Prefix header for all source files of the 'Slovník' target in the 'Slovník' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+    #define AllSearchOptions 16383
+    typedef enum _SearchStrategy : NSUInteger {
+
+        SearchStrategyExact = 1,
+        SearchStrategyPrefix,
+        SearchStrategySubString,
+        SearchStrategySuffix
+
+    } SearchStrategy;
+
+    typedef enum _SearchOptions : NSUInteger {
+
+        SearchOptionKSSJ4 =     1 << 0,
+        SearchOptionPSP =       1 << 1,
+        SearchOptionSCS =       1 << 2,
+        SearchOptionSSS =       1 << 3,
+        SearchOptionSSJ =       1 << 4,
+        SearchOptionMA =        1 << 5,
+        SearchOptionHSSJV =     1 << 6,
+        SearchOptionBER =       1 << 7,
+        SearchOptionOBCE =      1 << 8,
+        SearchOptionPRZSK =     1 << 9,
+        SearchOptionUN =        1 << 10,
+        SearchOptionSO =        1 << 11,
+        SearchOptionSKCS =      1 << 12,
+        SearchOptionSKEN =      1 << 13,
+        SearchOptionMAX =       1 << 14
+
+    } SearchOptions;
+
+    extern NSString * const RecentSearchesTableEnterKeyPressedNotification;
+    extern NSString * const SearchControllerEnterPressedNotification;
+    extern NSString * const SearchOptionsMaskKey;
+    extern NSString * const SearchStrategyKey;
+    extern NSString * const SearchStoreShouldClearNotification;
+    extern NSString * const SearchStoreShouldApplyNewLimitNotification;
+    extern NSString * const SearchStoreLimitKey;
+#endif
