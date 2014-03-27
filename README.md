@@ -34,7 +34,6 @@ Nastavenia
 
 License
 ===
-===
 Licensed under GPL v2 license. See the LICENSE for more info.
 
 
