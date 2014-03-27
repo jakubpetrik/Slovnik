@@ -3,7 +3,7 @@ Slovník
 
 Aplikácia je skratkou pre slovnik.korpus.sk. Vznikla z dôvodu potreby lepšej správy hľadaných výrazov. Mne celkom uľahčila písanie prác, teda svoj účel splnila. :) 
 
-[Dropbox link na zostavenú appku](https://www.dropbox.com/sh/3bsgnnljw40mc4r/05UvE5XTcs)
+[Dropbox link na zostavenú appku](http://goo.gl/NOMc3c)
 
 ====
 
