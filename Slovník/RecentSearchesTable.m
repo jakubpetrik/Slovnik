@@ -19,7 +19,7 @@ NSString * const RecentSearchesTableEnterKeyPressedNotification = @"RecentSearch
     if (theEvent.keyCode == KEY_CODE_ENTER) {
 
         NSInteger selectedRow = [_selectedRows firstIndex];
-        NSString *rowValue = [self.dataSource tableView:nil objectValueForTableColumn:nil row:selectedRow];
+        NSString *rowValue = [self.dataSource tableView:self objectValueForTableColumn:nil row:selectedRow];
         [[NSNotificationCenter defaultCenter]
          postNotificationName:RecentSearchesTableEnterKeyPressedNotification
          object:rowValue];
